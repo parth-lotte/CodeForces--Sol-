@@ -1,6 +1,7 @@
 import java.util.Scanner;
+import java.util.*;
 
-public class Main {
+public class Helpfulmaths {
         
     public static void main(String[] args) {
     
@@ -13,16 +14,15 @@ public class Main {
 
         Arrays.sort(ch);
 
-        for(int i=0; i<ch.length(); i++) {
+        for(int i=0; i<ch.length; i++) {
         
             System.out.print(ch[i]);
             if(i== ch.length-1)
             {
                 break;
             }
-            System.out.println("+");
+            System.out.print("+");
     }
 
     }
 }
- 
