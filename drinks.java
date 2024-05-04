@@ -8,13 +8,13 @@ public class drinks {
         int n = sc.nextInt();
         sc.nextLine();
 
-        int arr[] = new int[n];
+        float arr[] = new float[n];
 
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+            arr[i] = sc.nextFloat()
         }
 
-        int sum = 0;
+        float sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
